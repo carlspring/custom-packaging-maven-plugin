@@ -1,0 +1,17 @@
+import java.io.*;
+import java.util.*;
+
+try
+{
+    File repoDir = new File(basedir, "../../local-repo").getCanonicalFile();
+    File artifactFile = new File(repoDir, "org/carlspring/test/1.2.3-SNAPSHOT/test-1.2.3-SNAPSHOT.tbz");
+
+    return artifactFile.exists();
+}
+catch( Throwable t )
+{
+    t.printStackTrace();
+    return false;
+}
+
+return true;
