@@ -1,0 +1,2 @@
+custom-packaging-maven-plugin
+=============================
