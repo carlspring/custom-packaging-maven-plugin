@@ -1,0 +1,17 @@
+import java.io.*;
+import java.util.*;
+
+try
+{
+    File repoDir = new File(basedir, "../../local-repo").getCanonicalFile();
+    File artifactFile = new File(repoDir, "org/carlspring/test/5542/test-5542.zip");
+
+    return artifactFile.exists();
+}
+catch( Throwable t )
+{
+    t.printStackTrace();
+    return false;
+}
+
+return true;
