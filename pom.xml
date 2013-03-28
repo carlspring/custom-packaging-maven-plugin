@@ -84,9 +84,9 @@
     </dependencies>
 
     <scm>
-        <connection>scm:git:git@github.com:carlspring/derby-maven-plugin.git</connection>
-        <url>scm:git:git@github.com:carlspring/derby-maven-plugin.git</url>
-        <developerConnection>scm:git:git@github.com:carlspring/derby-maven-plugin.git</developerConnection>
+        <connection>scm:git:git@github.com:carlspring/custom-packaging-maven-plugin.git</connection>
+        <url>scm:git:git@github.com:carlspring/custom-packaging-maven-plugin.git</url>
+        <developerConnection>scm:git:git@github.com:carlspring/custom-packaging-maven-plugin.git</developerConnection>
     </scm>
 
     <distributionManagement>
